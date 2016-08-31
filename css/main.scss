@@ -1,0 +1,68 @@
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+#ingredients-page {
+
+  #flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 46em;
+    margin: auto;
+  }
+
+  #hero {
+    h2 {
+      text-align: left;
+      margin: 1em 0;
+    }
+
+    p{
+      margin: 1em 0;
+    }
+  }
+
+  .juice {
+    display: flex;
+    justify-content: flex-start;
+    flex: 0 1 20em;
+    margin: 1em 2em 1em 0;
+  }
+
+  .ingredients {
+    margin-left: 1em;
+  }
+
+  #mainstay-green h2 {
+    color: #0096A9;
+  }
+
+  #ss-veggie h2 {
+    color: #81BC41;
+  }
+
+  #harbor-voyage h2 {
+    color: #457BBE;
+  }
+
+  #sailors-delight h2 {
+    color: #EE7522;
+  }
+
+  #dockside-sunrise h2{
+    color: #F06177;
+  }
+
+  #starboard-strawberry h2{
+    color: #AE3863;
+  }
+
+  #watermelon-waves h2{
+    color: #9CD8D8;
+  }
+
+  img {
+    width: 6em;
+  }
+}
